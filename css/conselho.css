@@ -1,0 +1,92 @@
+header {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.945);
+}
+
+.menu-click {
+    text-decoration: none;
+}
+
+.title {
+    color: #72005F;
+    margin-bottom: 1.5rem;
+    padding-left: .2rem;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.sub-title {
+    color: #BAA193;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1e0d5;
+    width: 60%;
+    height: 60%;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 25px;
+    margin-right: 3rem;
+}
+
+#text {
+    color: #72005F;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.assinado {
+    color: #BAA193;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+#img {
+    border-radius: 10px;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+#button {
+    color: white;
+    background-color: #72005F;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+}
+
+#button:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .24);
+    background-color: #8b0775;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1400px) {
+    #img {
+        max-width: 400px;
+        max-height: 500px;
+    }
+}
